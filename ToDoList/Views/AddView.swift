@@ -21,7 +21,7 @@ struct AddView: View {
         TextField("Type something here...", text: $textFieldText)
           .padding(.horizontal)
           .frame(height: 55)
-          .background(Color(.systemGroupedBackground))
+          .background(Color(.secondarySystemBackground))
           .cornerRadius(10)
         
         Button(action: {
@@ -32,7 +32,7 @@ struct AddView: View {
             .font(.headline)
             .frame(height: 55)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-            .background(.blue)
+            .background(.accent)
             .cornerRadius(10)
         })
       }
